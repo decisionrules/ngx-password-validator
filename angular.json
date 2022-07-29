@@ -28,16 +28,6 @@
             "tsConfig": "projects/ng-password-validator/tsconfig.spec.json",
             "karmaConfig": "projects/ng-password-validator/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ng-password-validator/tsconfig.lib.json",
-              "projects/ng-password-validator/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**"]
-          }
         }
       }
     },
@@ -138,19 +128,6 @@
               "projects/ng-password-validator-dev/src/styles.scss"
             ],
             "scripts": []
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ng-password-validator-dev/tsconfig.app.json",
-              "projects/ng-password-validator-dev/tsconfig.spec.json",
-              "projects/ng-password-validator-dev/e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
           }
         },
         "e2e": {

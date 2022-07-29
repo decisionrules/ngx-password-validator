@@ -8,11 +8,10 @@ import { NgPasswordValidatorService } from './ng-password-validator.service';
 import { UtilsService } from './utils.service';
 
 @NgModule({
-  declarations: [NgPasswordValidatorDirective, NgPasswordValidatorComponent],
-  imports: [CommonModule],
-  providers: [DataService, UtilsService],
-  exports: [NgPasswordValidatorDirective],
-  entryComponents: [NgPasswordValidatorComponent],
+    declarations: [NgPasswordValidatorDirective, NgPasswordValidatorComponent],
+    imports: [CommonModule],
+    providers: [DataService, UtilsService],
+    exports: [NgPasswordValidatorDirective]
 })
 export class NgPasswordValidatorModule {
   /**
