@@ -1,0 +1,46 @@
+{
+  "name": "ng-password-validator",
+  "version": "3.0.0",
+  "description": "The password validator is a pop-up window that appears when you start typing in input box. Here you can configure the password acceptance criteria, once your enter characters fullfil the requirement you will get a success message.",
+  "author": "Jagan Mohan Bishoyi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaganbishoyi/ngx-password-validator.git"
+  },
+  "keywords": [
+    "Angular 2",
+    "Angular 9",
+    "Angular password validator",
+    "Password validator",
+    "Angular 2+ password validator"
+  ],
+  "homepage": "https://jaganbishoyi.github.io/ngx-password-validator/",
+  "peerDependencies": {
+    "@angular/common": "~13.3.11",
+    "@angular/core": "~13.3.11"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "module": "fesm2015/ng-password-validator.mjs",
+  "es2020": "fesm2020/ng-password-validator.mjs",
+  "esm2020": "esm2020/ng-password-validator.mjs",
+  "fesm2020": "fesm2020/ng-password-validator.mjs",
+  "fesm2015": "fesm2015/ng-password-validator.mjs",
+  "typings": "ng-password-validator.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ng-password-validator.d.ts",
+      "esm2020": "./esm2020/ng-password-validator.mjs",
+      "es2020": "./fesm2020/ng-password-validator.mjs",
+      "es2015": "./fesm2015/ng-password-validator.mjs",
+      "node": "./fesm2015/ng-password-validator.mjs",
+      "default": "./fesm2020/ng-password-validator.mjs"
+    }
+  },
+  "sideEffects": false
+}
